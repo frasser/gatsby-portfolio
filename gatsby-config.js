@@ -5,6 +5,13 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: `FRAZZER PORTFOLIO`,
+    description: `the frazzer's portfolio web page.`,
+    author: `@jpfrazzer`,
+    siteUrl: `https://www.frazzer.site/`,
+  },
+  plugins: [
+    `gatsby-plugin-postcss`,
+  ],
 }
