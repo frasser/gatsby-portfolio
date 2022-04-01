@@ -9,7 +9,7 @@ module.exports = {
     title: `FRAZZER PORTFOLIO`,
     description: `the frazzer's portfolio web page.`,
     author: `@jpfrazzer`,
-    siteUrl: `https://www.frazzer.site/`,
+    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
     `gatsby-plugin-postcss`,
