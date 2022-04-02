@@ -2,13 +2,17 @@
 <p align="center">
   <a href="https://www.gatsbyjs.com">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+     
+  </a>
+    <a href="https://www.gatsbyjs.com">
+     <img alt="Gatsby" src="https://th.bing.com/th/id/R.e31a7b2f970ae89be6d43d0cdb321de6?rik=zmPQNoX0ECYdxQ&pid=ImgRaw&r=0&sres=1&sresct=1" " width="180" />
   </a>
 </p>
 <h1 align="center">
   Gatsby's hello-world starter with tailwind css as styles
 </h1>
 
-Kick off your project with this hello-world boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+Kick off your project with this hello-world boilerplate. This starter ships with the main Gatsby configuration files and tailwind css that you might need to get up and running blazing fast with the blazing fast app generator for React.
 
 
 1.  **Open the source code and start editing!**
