@@ -29,7 +29,7 @@ const IndexPage =()=>(
   </div>
   <div className="w-full h-auto  my-5">
     <div className="flex w-full h-auto justify-center ">        
-      <div className="text-center my-5 text-2xl md:text-3xl text-custom-blue-prussian   font-bold">
+      <div className="pb-2 border-b-4 border-custom-aguamarina-100 text-center my-5 text-2xl md:text-3xl text-custom-blue-prussian   font-bold">
          Meet my skills and tools
       </div>
     </div>
@@ -41,6 +41,7 @@ const IndexPage =()=>(
     <p>Know my portfolio</p><small className="px-1">&#x1F4BC;</small> 
     </div>
   </div>
+  
   <Portfolio/>
   <Badge/>
 

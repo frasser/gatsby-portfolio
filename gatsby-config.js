@@ -3,6 +3,12 @@
  *
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
+ require('dotenv').config(
+   {
+     path: `.env.${process.env.NODE_ENV}`,
+   }
+ );
+ //console.log(process.env) 
 
 module.exports = {
   siteMetadata: {
@@ -21,6 +27,20 @@ module.exports = {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
-    }
+    },
+    {
+      resolve: `gatsby-source-strapi`,
+      options: {
+        apiURL: process.env.STRAPI_API_URL || `http://localhost:1337`,
+        accesToken: process.env.STRAPI_TOKEN,
+        collectionTypes: [
+          `project`,
+          `tag`,
+          
+        ],
+        
+        queryLimit: 1000,
+      },
+    },
   ],
 }

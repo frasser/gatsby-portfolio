@@ -14,10 +14,12 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "dotenv": "^16.0.0",
     "gatsby": "^4.11.1",
     "gatsby-plugin-image": "^2.11.1",
     "gatsby-plugin-react-helmet": "^5.11.0",
     "gatsby-source-filesystem": "^4.11.1",
+    "gatsby-source-strapi": "^2.0.0",
     "prop-types": "^15.8.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
