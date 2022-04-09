@@ -10,6 +10,7 @@ const Cards =()=>{
       nodes {
         title
         id
+        slug
         tags {
           title
           strapi_id
@@ -20,7 +21,7 @@ const Cards =()=>{
   }
   `
   const project = useStaticQuery(query);
-  console.log(project);
+  
   const {allStrapiProject: {nodes : pro}} = project
   console.log(pro);
   
@@ -31,13 +32,16 @@ const Cards =()=>{
                 const title = pro.title;
                 const description = pro.description;
                 const tags = pro.tags;
+                const slug= pro.slug
                 //const imageData = project.image.childImagesharp.fluid;
             
                 return(
                     <Card
+                     key={pro.id}
                      title={title} 
                      description= {description}
                      tags={tags}
+                     slug={slug}
                      //imageData={imageData}
                      />
                 )
