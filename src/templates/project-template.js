@@ -1,5 +1,6 @@
-import * as React from  "react";
-import { graphql} from "gatsby";
+import * as React from  "react"
+import { graphql} from "gatsby"
+
 
 import ProjectDetail from "../components/projectDetail";
 
@@ -16,6 +17,13 @@ query GetSingleProject($slug: String! )
     tags {
       title
       strapi_id
+    }
+    image {
+      localFile {
+        childImageSharp {
+          gatsbyImageData(layout: CONSTRAINED,width: 850 , placeholder: BLURRED)
+        }
+      }
     }
   }
 }

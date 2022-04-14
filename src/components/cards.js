@@ -16,6 +16,13 @@ const Cards =()=>{
           strapi_id
         }
         description
+        image {
+          localFile {
+            childImageSharp {
+              gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
+            }
+          }
+        }
       }
     }
   }
@@ -33,7 +40,7 @@ const Cards =()=>{
                 const description = pro.description;
                 const tags = pro.tags;
                 const slug= pro.slug
-                //const imageData = project.image.childImagesharp.fluid;
+                const imageData = pro.image.localFile.childImageSharp;
             
                 return(
                     <Card
@@ -42,7 +49,7 @@ const Cards =()=>{
                      description= {description}
                      tags={tags}
                      slug={slug}
-                     //imageData={imageData}
+                     image={imageData}
                      />
                 )
             })}

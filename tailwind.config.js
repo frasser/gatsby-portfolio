@@ -29,6 +29,14 @@ module.exports = {
         'custom-morado':'#8781EF',
         'custom-morado-100':'#7568F0',
 
+        'custom-dark-slate-gray':'#20403B',
+        'custom-prussian-blue':'#141E2E',
+        'custom-jade':'#25C290',
+        'custom-pine-green':'#24897A',
+        'custom-sea-green':'#24A584',
+
+
+
 
       }
     },
