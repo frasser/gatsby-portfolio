@@ -1,7 +1,28 @@
-import * as React from "react"
+import React,{useState} from "react"
 import {FaGithub,FaTwitter,FaLinkedin} from 'react-icons/fa'
-
+import FormModal from "./formModal"
 const Badge = ()=>{
+
+    const [containerState, setContainerState] = useState({
+        loading:true,
+        error:null,
+        modalIsOpen: false
+    })
+
+    const handleOpenModal = e =>{
+        setContainerState({modalIsOpen:true})
+    }
+
+    const handleCloseModal = e =>{
+        setContainerState({modalIsOpen: false})
+    }
+
+    const disableScroll = () => {
+        document.body.style.overflow = 'hidden'
+    }
+
+    
+
     return(
         <>
             <div className='flex justify-center  w-full h-auto'>
@@ -11,7 +32,14 @@ const Badge = ()=>{
                     <div className=' flex justify-center p-5 '>
                         
                     
-                        <button className='p-4 text-xl bg-custom-green-turquese-100 font-semibold text-custom-blue-midnight rounded-full shadow-md'>Contact Me</button>
+                        <button onClick={handleOpenModal}  className='p-4 text-xl bg-custom-green-turquese-100 font-semibold text-custom-blue-midnight rounded-full shadow-md'>
+                            Contact Me
+                        </button>
+                        <FormModal
+                            isOpen={containerState.modalIsOpen}
+                            onClose={handleCloseModal}
+                            onAfterOpen={disableScroll}
+                        />
                     </div>
                     <div className='flex flex-row justify-center py-5'>
                         <div><FaGithub className='w-8 h-8 mx-2 text-gray-100 opacity-75 hover:opacity-100 focus:opacity-100  cursor-pointer' title='GitHub'/></div>
