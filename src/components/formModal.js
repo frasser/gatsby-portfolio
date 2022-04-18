@@ -12,7 +12,7 @@ const FormModal = (props) => {
         <label className="block">
             <span class="block text-sm font-medium text-slate-700">Name</span>
             
-            <input type="text"   className="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+            <input type="text" name="name"   className="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
             focus:outline-none focus:border-custom-green-turquese-100 focus:ring-1 focus:ring-custom-green-turquese-100
             disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
             invalid:border-pink-500 invalid:text-pink-600
@@ -27,7 +27,7 @@ const FormModal = (props) => {
         </label>
         <label className="block">
             <span class="block text-sm font-medium text-slate-700">Email</span>
-            <input type="email" className="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+            <input type="email" name="mail" className="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
             focus:outline-none focus:border-custom-green-turquese-100 focus:ring-1 focus:ring-custom-green-turquese-100
             placeholder:italic placeholder:text-slate-400 
             "
@@ -39,7 +39,7 @@ const FormModal = (props) => {
         </label>
         <label className="block ">
             <span class="block text-sm font-medium text-slate-700">Message</span>
-            <textarea type="text" className="mt-1 block w-full h-32  px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+            <textarea type="text" name="message" className="mt-1 block w-full h-32  px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
             focus:outline-none focus:border-custom-green-turquese-100 focus:ring-1 focus:ring-custom-green-turquese-100
             placeholder:italic placeholder:text-slate-400 
             "
@@ -49,7 +49,7 @@ const FormModal = (props) => {
             Please provide your message .
             </p>
         </label>
-        <button className='mt-1 px-5 py-2 text-lg bg-custom-green-turquese-100 font-semibold text-custom-blue-midnight rounded-xl'>send</button>
+        <button className='transform motion-safe hover:scale-105 mt-1 px-5 py-2 text-lg bg-custom-green-turquese-100 font-semibold text-custom-blue-midnight rounded-xl'>send</button>
 
         </form>
 

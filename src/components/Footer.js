@@ -8,8 +8,8 @@ const  Footer=()=> {
                     <div className="flex item-center opacity-60 pt-2">
                     © {new Date().getFullYear()}, Build in  
                     {``}
-                    <a className="text-red-400" href="https://www.gatsbyjs.com"> {`\u00A0`} Gatsby</a>
-                    {`\u00A0`} by  {`\u00A0`} <a className="text-red-400" href="https://www.linkedin.com/in/juan-pablo-sanchez-frasser-3a4099232/">@jpfrazzer</a>
+                    <a className="text-red-400" href="https://www.gatsbyjs.com"  target="blank" rel="noreferrer "> {`\u00A0`} Gatsby</a>
+                    {`\u00A0`} by  {`\u00A0`} <a className="text-red-400" href="https://www.linkedin.com/in/juan-pablo-sanchez-frasser-3a4099232/?locale=en_US"  target="blank" rel="noreferrer ">@jpfrazzer</a>
                     
                     </div>
                 </div>
