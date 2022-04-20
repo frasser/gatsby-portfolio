@@ -7,7 +7,13 @@ const FormModal = (props) => {
         isOpen={props.isOpen}
         onClose={props.onClose}
     >
-        <form method='post' action="">
+        <form 
+            method='post' 
+            name="contact" 
+            data-netlify="true" 
+            data-netlify-honeypot="bot-fiel" 
+            action=""
+        >
 
         <label className="block">
             <span class="block text-sm font-medium text-slate-700">Name</span>
