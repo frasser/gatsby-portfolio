@@ -10,7 +10,7 @@ const FormModal = (props) => {
         <form 
             method='post' 
             name="contact" 
-            data-netlify="true" 
+            data-netlify="true"
             data-netlify-honeypot="bot-fiel" 
             action=""
         >
@@ -55,7 +55,7 @@ const FormModal = (props) => {
             Please provide your message .
             </p>
         </label>
-        <button className='transform motion-safe hover:scale-105 mt-1 px-5 py-2 text-lg bg-custom-green-turquese-100 font-semibold text-custom-blue-midnight rounded-xl'>send</button>
+        <button type="submit" className='transform motion-safe hover:scale-105 mt-1 px-5 py-2 text-lg bg-custom-green-turquese-100 font-semibold text-custom-blue-midnight rounded-xl'>send</button>
 
         </form>
 
