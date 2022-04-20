@@ -63,11 +63,3 @@ const Badge = ()=>{
 export default Badge
 
 
-
-/***
- * https://github.com/frasser
- * https://twitter.com/jpfrazzer
- * https://www.linkedin.com/in/juan-pablo-sanchez-frasser-3a4099232/
- * 
- * 
- */

@@ -15,7 +15,7 @@ module.exports = {
     title: `FRAZZER PORTFOLIO`,
     description: `the frazzer's portfolio web page.`,
     author: `@jpfrazzer`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://github.com/frasser/gatsby-portfolio/tree/master`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
