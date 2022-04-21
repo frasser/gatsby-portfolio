@@ -13,6 +13,7 @@
 module.exports = {
   siteMetadata: {
     title: `FRAZZER PORTFOLIO`,
+    titleTemplate:'%s | FRAZZER PORTFOLIO',
     description: `the frazzer's portfolio web page.`,
     author: `@jpfrazzer`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,

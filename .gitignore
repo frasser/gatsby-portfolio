@@ -53,6 +53,8 @@ typings/
 
 # dotenv environment variable files
 .env*
+.env.development*
+.env.production*
 
 # gatsby files
 .cache/
@@ -68,4 +70,5 @@ yarn-error.log
 # Yarn Integrity file
 .yarn-integrity
 package-lock.json
+
 
