@@ -33,17 +33,7 @@ console.log('here');
 const {project } = data
 console.log(project);
 
-    //console.log(project.title);
-    //const p = useStaticQuery(query);
-    //console.log(p);
-    //const {allStrapiProject: {nodes : pro}} = p
-    //console.log('dhjhdjkd');
-    //console.log(pro);
 
-    //console.log('aqui');
-    //const t = {...context}
-    //console.log(t);
-    
     return(
         <ProjectDetail {...project}/>
 

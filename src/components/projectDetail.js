@@ -1,6 +1,6 @@
 import React from 'react'
 import Seo from "../components/seo"
-import {FaGithub,FaExternalLinkAlt} from 'react-icons/fa'
+import {FaGithub} from 'react-icons/fa'
 import {MdPreview} from 'react-icons/md'
 import {GatsbyImage} from 'gatsby-plugin-image'
 

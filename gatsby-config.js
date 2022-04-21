@@ -15,7 +15,7 @@ module.exports = {
     title: `FRAZZER PORTFOLIO`,
     description: `the frazzer's portfolio web page.`,
     author: `@jpfrazzer`,
-    siteUrl: `https://github.com/frasser/gatsby-portfolio/tree/master`,
+    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -33,7 +33,7 @@ module.exports = {
     {
       resolve: `gatsby-source-strapi`,
       options: {
-        apiURL: process.env.STRAPI_API_URL || `http://localhost:1337`,
+        apiURL: process.env.STRAPI_API_URL || `http://localhost:1337` ,
         accesToken: process.env.STRAPI_TOKEN,
         collectionTypes: [
           `project`,
